@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>See Raja Mounika | Creative Developer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">SRM</div>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-bg"></div>
+            <div class="container">
+                <h1>See Raja Mounika</h1>
+                <h2>Bringing ideas to life through stunning digital experiences.</h2>
+                <p>Building beautiful digital experiences with code and creativity</p>
+                <a href="#projects" class="btn">Explore My Work <i class="fas fa-arrow-down"></i></a>
+            </div>
+            <div class="scroll-indicator">
+                <div class="mouse">
+                    <div class="wheel"></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <h2 class="section-title"><span>About Me</span></h2>
+                <div class="about-content">
+                    <div class="about-img">
+                        <img src="https://uploads.onecompiler.io/43pvkc2b8/43pw5mquk/WhatsApp%20Image%202025-07-06%20at%2022.34.05.jpeg" alt="See Raja Mounika">
+                        <div class="color-splash"></div>
+                    </div>
+                    <div class="about-text">
+                        <p>Hello! Hello! I'm Mounika, with a desire for technology and problem solving, I look forward to applying my knowledge and skills to develop innovative software solutions which solve complex problems, optimize and deliver proper resourceful solutions.</p>
+                        <p>With 4+ years of experience, I've collaborated with startups and established companies to bring their digital visions to life through clean code and thoughtful design.</p>
+                        <div class="skills">
+                            <h3>My Toolkit</h3>
+                            <div class="skill-tags">
+                                <span style="background-color: #6C63FF;">HTML5/CSS3</span>
+                                <span style="background-color: #4D77FF;">JavaScript</span>
+                                <span style="background-color: #5E7CE2;">React</span>
+                                <span style="background-color: #8EA4FF;">Node.js</span>
+                                <span style="background-color: #FF9E7D;">UI/UX Design</span>
+                                <span style="background-color: #7DB9FF;">Figma</span>
+                                <span style="background-color: #FF7D7D;">Adobe CC</span>
+                                <span style="background-color: #6CFF63;">Responsive Design</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2 class="section-title"><span>Featured Projects</span></h2>
+                
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="https://uploads.onecompiler.io/43pvkc2b8/43pw5mquk/WhatsApp%20Image%202025-07-06%20at%2022.34.35%20(1).jpeg" alt="Todo App">
+                        <div class="project-overlay">
+                            <a href="#todo-app" class="btn btn-outline">View Project</a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Todo Application</h3>
+                        <p>This project is a simple yet functional web-based To-Do List application that allows users to create, manage, and track tasks. It uses HTML, CSS, and JavaScript, and leverages the browser's localStorage feature to persist data across sessions without requiring a backend or database.</p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>Local Storage</span>
+                        </div>
+                        <a href="#todo-app" class="btn btn-small">Try It Out <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="https://uploads.onecompiler.io/43pvkc2b8/43pw5mquk/WhatsApp%20Image%202025-07-06%20at%2022.34.35.jpeg" alt="E-commerce Filters">
+                        <div class="project-overlay">
+                            <a href="#product-listing" class="btn btn-outline">View Project</a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Product Explorer</h3>
+                        <p>An interactive product showcase with dynamic filtering, sorting, and visual product cards. Perfect for e-commerce applications.</p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>DOM Manipulation</span>
+                        </div>
+                        <a href="#product-listing" class="btn btn-small">Try It Out <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="todo-app" class="todo-app-section">
+            <div class="container">
+                <h2 class="section-title"><span>Todo App</span></h2>
+                <div class="todo-app-container">
+                    <div class="todo-header">
+                        <h3><i class="fas fa-check-circle"></i> My Tasks</h3>
+                        <div class="todo-controls">
+                            <input type="text" id="todo-input" placeholder="What needs to be done?">
+                            <button id="add-todo" class="btn"><i class="fas fa-plus"></i> Add</button>
+                        </div>
+                        <div class="todo-filters">
+                            <button class="filter-btn active" data-filter="all">All Tasks</button>
+                            <button class="filter-btn" data-filter="active">Active</button>
+                            <button class="filter-btn" data-filter="completed">Completed</button>
+                        </div>
+                    </div>
+                    <ul id="todo-list"></ul>
+                    <div class="todo-stats">
+                        <span id="task-count">0 tasks</span>
+                        <button id="clear-completed" class="btn-text">Clear completed</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="product-listing" class="product-listing-section">
+            <div class="container">
+                <h2 class="section-title"><span>Product Explorer</span></h2>
+                <div class="product-controls">
+                    <div class="filter-section">
+                        <h3><i class="fas fa-filter"></i> Filters</h3>
+                        <div class="category-filter">
+                            <h4>Category</h4>
+                            <div class="category-options">
+                                <label class="checkbox-container">Electronics
+                                    <input type="checkbox" name="category" value="electronics" checked>
+                                    <span class="checkmark" style="background-color: #6C63FF;"></span>
+                                </label>
+                                <label class="checkbox-container">Clothing
+                                    <input type="checkbox" name="category" value="clothing" checked>
+                                    <span class="checkmark" style="background-color: #FF7D7D;"></span>
+                                </label>
+                                <label class="checkbox-container">Home
+                                    <input type="checkbox" name="category" value="home" checked>
+                                    <span class="checkmark" style="background-color: #FF9E7D;"></span>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="price-filter">
+                            <h4>Price Range</h4>
+                            <input type="range" id="price-range" min="0" max="500" value="500">
+                            <div class="price-values">
+                                <span>$0</span>
+                                <span id="current-max-price">$500</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sort-section">
+                        <h3><i class="fas fa-sort-amount-down"></i> Sort By</h3>
+                        <select id="sort-options">
+                            <option value="name-asc">Name (A-Z)</option>
+                            <option value="name-desc">Name (Z-A)</option>
+                            <option value="price-asc">Price (Low to High)</option>
+                            <option value="price-desc">Price (High to Low)</option>
+                            <option value="rating-desc">Rating (High to Low)</option>
+                        </select>
+                    </div>
+                </div>
+                <div id="product-grid" class="product-grid"></div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2 class="section-title"><span>Let's Connect</span></h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3>Get in Touch</h3>
+                        <p><i class="fas fa-envelope"></i> raja.mounika@example.com</p>
+                        <p><i class="fas fa-phone"></i> (123) 456-7890</p>
+                        <p><i class="fas fa-map-marker-alt"></i> Hyderabad, India</p>
+                        <div class="social-links">
+                            <a href="https://github.com/" target="_blank" style="color: #6C63FF;"><i class="fab fa-github"></i></a>
+                            <a href="https://linkedin.com/" target="_blank" style="color: #4D77FF;"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://twitter.com/" target="_blank" style="color: #7DB9FF;"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                    <form id="contact-form" action="https://formsubmit.co/your-email@example.com" method="POST">
+                        <input type="hidden" name="_subject" value="New message from portfolio!">
+                        <input type="hidden" name="_autoresponse" value="Thanks for your message! I'll get back to you soon.">
+                        <input type="hidden" name="_template" value="table">
+                        <input type="hidden" name="_captcha" value="false">
+                        <div class="form-group">
+                            <input type="text" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">SRM</div>
+                <p>© 2023 See Raja Mounika. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
